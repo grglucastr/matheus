@@ -1,0 +1,25 @@
+body{
+  background-color: #151212;
+  color: #FFFFFF;
+}
+
+.contato-frase{
+  font-family: 'GOTHAM-LIGHT';
+  letter-spacing: 3px;
+  margin-top: 50px;
+  padding: 0 90px;
+  text-align: justify;
+}
+
+#form_contato label{
+  font-family: 'GOTHAM-LIGHT';
+}
+
+#lnk_enviar{
+  font-family: 'GOTHAM-LIGHT';
+  color: #bebebe;
+  width: 13%;
+  display: block;
+  border-bottom: 1px solid;
+  text-align: center;
+}
