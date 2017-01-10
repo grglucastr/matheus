@@ -1,0 +1,72 @@
+html, body{height: 100%;}
+
+#home{
+    padding-top: 100px;
+    /*background: #151212 url('../imgs/bghome.png') no-repeat center center;*/
+    background-size: cover;
+    background: #151212;
+}
+
+/*---------- FIRST PAGE ----------*/
+
+@media only screen and (min-width:500px) {
+  .first-page-background{
+      height: 100%;
+      width: 100%;
+      background: url("/images/website_background_02.png") no-repeat center center;
+      background-size: cover;
+  }
+}
+
+@media only screen and (max-width:499px) {
+  .first-page-background{
+      height: 100%;
+      width: 100%;
+      background: url("/images/fundosmartphone.png") no-repeat center center;
+      background-size: cover;
+  }
+}
+
+
+.index-section{
+    padding: 0;
+    background-color: #151212;
+}
+
+/**------ GRID SETTINGS-------**/
+/* ---- grid ---- */
+
+.grid {
+    background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+    width: 33.333%;
+}
+
+.grid-item {
+    float: left;
+}
+
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+
+/*------- FOOTER --------*/
+.section-footer{
+    display: none;
+    text-align: center;
+    background-color: #151212;
+    color: #FFFFFF;
+}

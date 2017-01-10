@@ -1,0 +1,89 @@
+#menu{
+    position: absolute;;
+    z-index: 9999;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu{
+    padding: 0;
+}
+
+.main-menu{
+    background-color: #151212;
+    box-shadow: none;
+}
+
+.main-menu a{
+    font-family: 'GOTHAM-LIGHT' !important;
+}
+
+#desktop-menu li{
+    height: 98px;
+    text-align: center;
+}
+
+.main-menu .brand-logo{
+    margin-left: 3%;
+    margin-top: 0.7%;
+}
+
+.main-menu li a:hover{
+    background-color: rgba(119,119,119, 0.2);
+}
+
+#desktop-menu a{
+    height: 98px;
+    padding-top: 16px;
+    letter-spacing: 5px;
+    font-size: 11px;
+}
+
+#desktop-menu #identidadesVisuais{
+    width: 18%;
+}
+
+#desktop-menu #identidadesVisuais a{
+    line-height: normal;
+    text-align: center;
+    padding: 36px 0px 0px 0px;
+}
+
+#desktop-menu #contatos-redes-sociais{
+    margin-left: 10px;
+}
+
+#desktop-menu #contatos-redes-sociais a{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    height: 33px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+#mobile-menu{
+    background-color: #231F20;
+}
+
+#mobile-menu li{
+    text-align: center;
+    display: block;
+}
+
+#mobile-menu a{
+    color:#fff;
+}
+
+@media only screen and (min-width: 1000px){
+    .main-menu{
+        height: 98px;
+    }
+  .main-menu a{
+      height: 98px;
+  }
+}
