@@ -4,7 +4,6 @@ $(document).ready(function() {
         anchors:['homepage','identidades-visuais',
         'campanhas', 'anuncios', 'websites',
         'redes-sociais', 'contato'],
-
         onLeave: onLeaveFn,
     });
 });

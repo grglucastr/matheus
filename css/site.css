@@ -3,7 +3,7 @@ html, body{
     color:#FFFFFF;
 }
 
-#home{
+#section0{
     background: #151212 url('../imgs/bghome.png') no-repeat center center;
     background-size: cover;
     /*background: #151212;*/
@@ -20,7 +20,7 @@ html, body{
 
 /*---------- FIRST PAGE ----------*/
 @media only screen and (max-width:499px) {
-    #home{
+    #section0{
         background: url("../imgs/bg-home-mobile.png") no-repeat center center;
         background-size: cover;
     }
