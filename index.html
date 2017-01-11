@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" media="screen" href="http://matheusdesigner.azurewebsites.net/css/fonts.css">
         <link rel="stylesheet" type="text/css" href="libs/fullpage.js/dist/jquery.fullpage.min.css">
@@ -14,13 +15,16 @@
         <script type="text/javascript" src="libs/fullpage.js/dist/jquery.fullpage.extensions.min.js"></script>
         <script type="text/javascript" src="libs/materialize/dist/js/materialize.min.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
+
+        <title>Matheus | Designer &amp; Art Director</title>
     </head>
+
     <body>
         <div class="section section-menu" id="menu">
             <nav class="main-menu">
                 <div class="nav-wrapper">
-                    <a href="#home" class="brand-logo">
-                        <img src="http://matheusdesigner2.azurewebsites.net/images/matheus-logo.png" alt="LALALALA" />
+                    <a href="#homepage" class="brand-logo">
+                        <img src="http://matheusdesigner.azurewebsites.net/images/matheus-logo.png" alt="Matheus" />
                     </a>
                     <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down" id="desktop-menu">
@@ -28,9 +32,9 @@
                             <a href="#identidades-visuais">IDENTIDADES VISUAIS</a>
                         </li>
                         <li data-menuanchor="campanhas"><a href="#campanhas">CAMPANHAS</a></li>
-                        <li><a href="#">ANÚNCIOS</a></li>
-                        <li><a href="#">WEBSITES</a></li>
-                        <li><a href="#">REDES SOCIAIS</a></li>
+                        <li data-menuanchor="anuncios"><a href="#anuncios">ANÚNCIOS</a></li>
+                        <li data-menuanchor="websites"><a href="#websites">WEBSITES</a></li>
+                        <li data-menuanchor="redes-sociais"><a href="#redes-sociais">REDES SOCIAIS</a></li>
                         <li id="contatos-redes-sociais">
                             <a href="#contato"> <img src="http://matheusdesigner.azurewebsites.net/images/at-sign.png" alt="Contato"/></a>
                             <a href="https://www.instagram.com/coyotevoador/" target="_blank"> <img src="http://matheusdesigner.azurewebsites.net/images/instagram-logo.png" alt="Instagram"/></a>
@@ -52,9 +56,24 @@
         </div>
         <div id="fullpage">
             <div class="section" id="home"></div>
-            <div class="section">Section 1</div>
-            <div class="section">Section 2</div>
-            <div class="section">Contato</div>
+            <div class="section">
+                <p class="section-intro">Identidades Visuais</p>
+            </div>
+            <div class="section">
+                <p class="section-intro">Campanhas</p>
+            </div>
+            <div class="section">
+                <p class="section-intro">Anúncios</p>
+            </div>
+            <div class="section">
+                <p class="section-intro">Websites</p>
+            </div>
+            <div class="section">
+                <p class="section-intro">Redes Sociais</p>
+            </div>
+            <div class="section">
+                <p class="section-intro">Contato</p>
+            </div>
         </div>
     </body>
 </html>

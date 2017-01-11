@@ -1,36 +1,29 @@
-html, body{height: 100%;}
+html, body{
+    height: 100%; background-color: #151212;
+    color:#FFFFFF;
+}
 
 #home{
-    padding-top: 100px;
-    /*background: #151212 url('../imgs/bghome.png') no-repeat center center;*/
+    background: #151212 url('../imgs/bghome.png') no-repeat center center;
     background-size: cover;
-    background: #151212;
+    /*background: #151212;*/
+}
+
+.section-intro{
+    font-family: 'GOTHAM-LIGHT';
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+
 }
 
 /*---------- FIRST PAGE ----------*/
-
-@media only screen and (min-width:500px) {
-  .first-page-background{
-      height: 100%;
-      width: 100%;
-      background: url("/images/website_background_02.png") no-repeat center center;
-      background-size: cover;
-  }
-}
-
 @media only screen and (max-width:499px) {
-  .first-page-background{
-      height: 100%;
-      width: 100%;
-      background: url("/images/fundosmartphone.png") no-repeat center center;
-      background-size: cover;
-  }
-}
-
-
-.index-section{
-    padding: 0;
-    background-color: #151212;
+    #home{
+        background: url("../imgs/bg-home-mobile.png") no-repeat center center;
+        background-size: cover;
+    }
 }
 
 /**------ GRID SETTINGS-------**/
