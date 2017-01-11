@@ -25,6 +25,7 @@
     "angular": "^1.6.1",
     "fullpage.js": "^2.9.2",
     "materialize": "^0.97.8",
-    "angular-route": "^1.6.1"
+    "angular-route": "^1.6.1",
+    "masonry": "^4.1.1"
   }
 }
